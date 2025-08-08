@@ -12,6 +12,8 @@ You can use the `sudosolve.ipynb` notebook to solve a puzzle. You need `julia` k
 
 The main functions are `solvebyrules` and `solvebyguessing`. You can specify the puzzle either as a matrix or as a string (converted to a matrix using the helper `text2mat`.) See `samples.jl` for examples.
 
+You can also use the awesome `dlx` solver from Donald Knuth. It's in `dlx_wrapper.jl`.
+
 ## License
 
 Whatever License
